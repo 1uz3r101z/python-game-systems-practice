@@ -4,7 +4,7 @@ print("xo" * 10)
 print("    THE LAST NIGHT: Z0M813 APOCALYPSE  ")
 
 #-------------------------------------------------------------
-# CHARACTER CREATION
+#                 CHARACTER CREATION
 #-------------------------------------------------------------
 name = input("n\Before the game begins tell me your name ")
 
@@ -78,4 +78,9 @@ else:
     morale +=
     romance =
 
-print(
+print(f"\nWelcome {name} the {background}.")
+print("You and your group have reached the final night of the outbreak.")
+
+#--------------------------------------------------
+#        COMPANION SELECTION
+#--------------------------------------------------
