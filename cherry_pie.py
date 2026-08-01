@@ -27,4 +27,30 @@ morale = 75
 romance = 0 
 
 if background_choice == "1":
-    
+    background = "Soldier"
+    health += 
+    strenght += 80
+    intelligence += 
+    medical +=
+    supplies +=
+    ammo +=
+    trust +=
+    morale +=
+    romance =
+
+elif background_choice == "2":
+    background = " Medic" 
+    health +=
+    strenght +=
+    intelligence +=
+    medical +=
+    supplies +=
+    ammo +=
+    trust +=
+    morale +=
+    romance =
+
+elif background_choice == "3":
+    background
+            
+
