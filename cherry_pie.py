@@ -33,50 +33,50 @@ romance = 0
 
 if background_choice == "1":
     background = "Soldier"
-    health += 
+    health += 50
     strength += 80
-    intelligence += 
-    medical +=
-    supplies +=
-    ammo +=
-    trust +=
-    morale +=
-    romance =
+    intelligence += 80 
+    medical += 40
+    supplies -= 20 
+    ammo +=50
+    trust += 0
+    morale += 0
+    romance = 0
 
 elif background_choice == "2":
     background = " Medic" 
-    health +=
-    strength +=
-    intelligence +=
-    medical +=
-    supplies +=
-    ammo +=
-    trust +=
-    morale +=
-    romance =
+    health += 60
+    strength -= 50
+    intelligence += 85
+    medical += 50
+    supplies += 0
+    ammo -= 80 
+    trust += 0
+    morale += 0
+    romance = 0
 
 elif background_choice == "3":
     background = "Engineer"
-    health +=
-    strength +=
-    intelligence +=
-    medical +=
-    supplies +=
-    ammo +=
-    trust +=
-    morale +=
-    romance = 
+    health -= 20
+    strength += 0
+    intelligence += 90
+    medical += 0
+    supplies += 57
+    ammo += 45
+    trust += 0
+    morale += 0
+    romance = 0
 else:
     background = " survivor" 
-    health +=
-    strength += 
-    intelligence +=
-    medical +=
-    supplies +=
-    ammo +=
-    trust +=
-    morale +=
-    romance =
+    health -= 50
+    strength -= 46 
+    intelligence -= 38
+    medical += 0
+    supplies += 0
+    ammo -= 85
+    trust += 0
+    morale += 0
+    romance = 0
 
 print(f"\nWelcome {name} the {background}.")
 print("You and your group have reached the final night of the outbreak.")
