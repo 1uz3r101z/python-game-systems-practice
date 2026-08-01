@@ -29,7 +29,7 @@ romance = 0
 if background_choice == "1":
     background = "Soldier"
     health += 
-    strenght += 80
+    strength += 80
     intelligence += 
     medical +=
     supplies +=
@@ -41,7 +41,7 @@ if background_choice == "1":
 elif background_choice == "2":
     background = " Medic" 
     health +=
-    strenght +=
+    strength +=
     intelligence +=
     medical +=
     supplies +=
@@ -51,6 +51,17 @@ elif background_choice == "2":
     romance =
 
 elif background_choice == "3":
-    background
-            
-
+    background = "Engineer"
+    health +=
+    strength +=
+    intelligence +=
+    medical +=
+    supplies +=
+    ammo +=
+    trust +=
+    morale +=
+    romance = 
+else:
+    background = " survivor" 
+    health +=
+    strength
