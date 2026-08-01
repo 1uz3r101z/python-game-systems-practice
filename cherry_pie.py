@@ -6,8 +6,13 @@ print("    THE LAST NIGHT: Z0M813 APOCALYPSE  ")
 #-------------------------------------------------------------
 # CHARACTER CREATION
 #-------------------------------------------------------------
-name = input("n\What is your character name ? ").strip() 
+name = input("n\Before the game begins tell me your name ")
 
+name = input("Enter your name: ").strip() 
+
+if name =="":
+    name = "Player"
+    
 print("\nChoose your background:")
 print("1. Soldier      - Srong in combat")
 print("2. Medic        - Better at healing and using the cure")
@@ -64,4 +69,13 @@ elif background_choice == "3":
 else:
     background = " survivor" 
     health +=
-    strength
+    strength += 
+    intelligence +=
+    medical +=
+    supplies +=
+    ammo +=
+    trust +=
+    morale +=
+    romance =
+
+print(
