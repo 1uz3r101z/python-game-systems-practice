@@ -32,7 +32,7 @@ morale = 75
 romance = 0 
 
 if background_choice == "1":
-    background = "Soldier"
+    background = "Combat Soldier"
     health += 50
     strength += 80
     intelligence += 80 
@@ -84,3 +84,19 @@ print("You and your group have reached the final night of the outbreak.")
 #--------------------------------------------------
 #        COMPANION SELECTION
 #--------------------------------------------------
+
+print("\nChoose the companion closest to you:")
+print("1. Maya - A fearless combat soldier")
+print("2. Alex - A skilled engineer")
+print("3. Jordan - A compassionate medic")
+
+companion_choice = input("Enter 1, 2, or 3: ").strip()
+if companion_choice == "1":
+    companion = "Maya"
+    companion_skill = "combat soldier"
+elif companion_choice =="2":
+    companion = "Alex"
+    companion_skill = "engineer"
+
+    
+    
