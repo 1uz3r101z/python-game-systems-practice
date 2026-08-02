@@ -105,5 +105,16 @@ print (f"\n{companion} has stayed beside you throughout the outbreak.")
 
 #        IMPORTANT STORY VARIABLES
 
+saved_friend = False
+found_cure = False
+cure_intact = False 
+vehicle_working = False
+base_defended = False
+leader_alive = True 
+companion_alive = True 
+bitten = False
+rescued_survivors = False
+
+
     
     
