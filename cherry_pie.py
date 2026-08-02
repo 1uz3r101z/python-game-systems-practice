@@ -148,6 +148,53 @@ if choice =="1":
         print("2. Search for the key")
         print("3. Leave it alone")
 
+        cabinet_choice = iunput("Choose 1, 2, or 3: ").strip()
+        if cabinet_choice == "1":
+            if strength >= 50
+                print("\nYou break the cabinet open.")
+                supplies += 44
+                medical += 66
+            else: print("\nYou open it, but the noise attracts zombies.")
+                supplies +=22
+                medical += 33
+                ammo -= 38
+        elif cabinet_choice == "2":
+            if intelligence >= 40 or companion_skill == "combat soldier":
+                print("\nYou locate the pharmacist's key.")
+                supplies += 25
+                trust += 15
+            else:
+                print("\nThe search takes too long. You escape with limited supplies.")
+                supplies += 13
+                morale -= 25
+    else:
+        print("\nYou leave before the pharmacy becomes surrouunded.")
+            supplies += 15
+elif choice == "2":
+    print("\nYou rush and grab everything you can.")
+    if strength >= 77:
+        print("You fight through the infected and escape.")
+        supplies += 34
+        ammo -= 58
+    else:
+        print("An infected grabs your arm during the escape.")
+        health -= 40
+        ammo-= 15
+        if health <= 89:
+            bitten_answer input(
+                "You discover a suspicious wound. Hide it from the group?"
+                "(yes/no):"
+            ).lower()
+            if bitten_answer =="yes":
+                bitten = True 
+                trust -= 28
+            else:
+                print(f"{companion} cleans the wound and determines it is only a scratch.")
+                trust += 28
+else: 
+    print("\nYou avoid the pharmacy.")
+    morale -=1
+        
         
 
 
