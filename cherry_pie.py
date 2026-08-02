@@ -32,7 +32,7 @@ morale = 75
 romance = 0 
 
 if background_choice == "1":
-    background = "Combat Soldier"
+    background = "combat soldier"
     health += 50
     strength += 80
     intelligence += 80 
@@ -44,7 +44,7 @@ if background_choice == "1":
     romance = 0
 
 elif background_choice == "2":
-    background = " Medic" 
+    background = "medic" 
     health += 60
     strength -= 50
     intelligence += 85
@@ -56,7 +56,7 @@ elif background_choice == "2":
     romance = 0
 
 elif background_choice == "3":
-    background = "Engineer"
+    background = "engineer"
     health -= 20
     strength += 0
     intelligence += 90
@@ -67,7 +67,7 @@ elif background_choice == "3":
     morale += 0
     romance = 0
 else:
-    background = " survivor" 
+    background = "survivor" 
     health -= 50
     strength -= 46 
     intelligence -= 38
@@ -138,8 +138,17 @@ choice = input("Choose 1, 2, or 3:").strip()
 
 if choice =="1":
     print("\nYou enter quietly and search each room.")
-    
 
+        if companon_skill == "combat soldier":
+            print(f"{companion} notices a hidden infected before it attacks.")
+                health += 1
+                trust += 1
+        print("\nYou find a locked medical cabinet.")
+        print("1. Force it to open")
+        print("2. Search for the key")
+        print("3. Leave it alone")
+
+        
 
 
     
