@@ -115,6 +115,23 @@ companion_alive = True
 bitten = False
 rescued_survivors = False
 
+#-----------------------------------------------------------------
+#               CHAPTER 1: THE SUPPLY RUN
+#-----------------------------------------------------------------
+
+print("xo" * 14)
+print ("CHAPTER 1: THE ABANDONED PHARMACY")
+print("xo" * 14)
+
+print(
+    "\nYour group is almost out of medicine."
+    "A nearby pharmacy may contain valuable supplies..."
+    "but the streets are filled with infected."
+)
+
+print ("What do you do?")
+
+
 
     
     
