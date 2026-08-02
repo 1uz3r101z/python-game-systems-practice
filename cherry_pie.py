@@ -129,7 +129,16 @@ print(
     "but the streets are filled with infected."
 )
 
-print ("What do you do?")
+print ("\nWhat do you do?")
+print("1. Search the Pharmacy carefully.")
+print("2. Raid it qquickly before more zombies arrive.")
+print("3. Avoid the pharmacy and preserve your strength.")
+
+choice = input("Choose 1, 2, or 3:").strip()
+
+if choice =="1":
+    print("\nYou enter quietly and search each room.")
+    
 
 
 
