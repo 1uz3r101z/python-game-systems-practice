@@ -97,6 +97,13 @@ if companion_choice == "1":
 elif companion_choice =="2":
     companion = "Alex"
     companion_skill = "engineer"
+else: 
+    companion = "Jordan"
+    companion_skill = "medic"
+
+print (f"\n{companion} has stayed beside you throughout the outbreak.")
+
+#        IMPORTANT STORY VARIABLES
 
     
     
