@@ -214,6 +214,8 @@ print("1. Rescue the trapped survivors")
 print("2. Follow the leader's order")
 print("3. Secretly send them directions for safety.")
 
+choice = input(Choose 1, 2, or 3: ").strip()
+
 
 
 
