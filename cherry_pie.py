@@ -195,7 +195,16 @@ else:
     print("\nYou avoid the pharmacy.")
     morale -=15
     print("Your group is disappointed, but everyone remains safe.")
-        
+
+#-------------------------------------------------------------------
+#                CHAPTER 2: THE DISTRESS CALL
+#-------------------------------------------------------------------
+
+print("xo" * 14)
+print("CHAPTER 2: THE DISTRESS CALL")
+print("xo" * 14)
+
+
 
 
 
