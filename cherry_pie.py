@@ -216,6 +216,16 @@ print("3. Secretly send them directions for safety.")
 
 choice = input(Choose 1, 2, or 3: ").strip()
 
+if choice == "1":
+    print("\nYou convice part of the group to attempt a rescue.")
+
+    if ammo >= 100 and strength >= 88:
+        print("You clear the school and rescue six survivors>")
+        rescued_survivors = True 
+        trust += 20
+        morale += 35
+        ammo -= 55
+        print("\nOne survivor claims to be a scientst.")
 
 
 
