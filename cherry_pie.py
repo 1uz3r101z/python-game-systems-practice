@@ -209,6 +209,11 @@ print(
         "Your group leader wants to ignore them."
 )
 
+print("\nWhat do you do?")
+print("1. Rescue the trapped survivors")
+print("2. Follow the leader's order")
+print("3. Secretly send them directions for safety.")
+
 
 
 
