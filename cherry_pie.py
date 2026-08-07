@@ -193,9 +193,10 @@ elif choice == "2":
                 trust += 28
 else: 
     print("\nYou avoid the pharmacy.")
-    morale -=1
+    morale -=15
+    print("Your group is disappointed, but everyone remains safe.")
         
-        
+
 
 
     
