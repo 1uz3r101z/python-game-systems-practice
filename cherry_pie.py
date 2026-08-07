@@ -204,6 +204,11 @@ print("xo" * 14)
 print("CHAPTER 2: THE DISTRESS CALL")
 print("xo" * 14)
 
+print( 
+        "\nYour radio receives a message from survivors trapped in a school."
+        "Your group leader wants to ignore them."
+)
+
 
 
 
