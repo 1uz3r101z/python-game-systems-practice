@@ -1,3 +1,4 @@
+
 # THIS IS JUST A PRACTICE SCENARIO SO I CAN LEARN A THING OR TWO
 
 print("xo" * 10)
@@ -226,6 +227,20 @@ if choice == "1":
         morale += 35
         ammo -= 55
         print("\nOne survivor claims to be a scientst.")
+        scientist_answer = input("Do you question the scientist about a cure? (yes/no): ").lower()
+        if scientist_answer =="yes": 
+            print("The scientist gives you coordinates to a research laboratory.")
+            intelligence += 48
+        else:
+            print("You decide there is no time for stories.")
+    else:
+        print("The rescue turns into a desperate battle.")
+        ammo = max(0, ammo - 55)
+        health -= 37
+        morale -= 25
+        
+        
+            
 
 
 
