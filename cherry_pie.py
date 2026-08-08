@@ -238,6 +238,8 @@ if choice == "1":
         ammo = max(0, ammo - 55)
         health -= 37
         morale -= 25
+
+        sacrifice = input(f"{companion} becomes trapped. Risk your life to save them?: (yes/no):"
         
         
             
